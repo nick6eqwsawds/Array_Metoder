@@ -4,7 +4,7 @@ public class Uppgift {
         skriv_ut_array(array);
         tal_över_8(array);
         //int tal = 10;
-        int retur = hitta_tal(array, 10);
+        int retur = hitta_tal(array, 9);
         System.out.println(retur);
 
         /* 
