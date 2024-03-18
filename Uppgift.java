@@ -6,6 +6,10 @@ public class Uppgift {
         //int tal = 10;
         int retur = hitta_tal(array, 9);
         System.out.println(retur);
+        System.out.println("______________");
+        byt_plats(array, 0, 3);
+        skriv_ut_array(array);
+        
 
         /* 
         for (int i = 0; i < fält.length; i++) {
@@ -45,6 +49,12 @@ public class Uppgift {
             }
         }
         return index;
+    }
+
+    static void byt_plats(int[] array, int index1, int index2) {
+        int byta = array[index1];
+        array[index1] = array[index2];
+        array[index2] = byta;
     }
 
 }
